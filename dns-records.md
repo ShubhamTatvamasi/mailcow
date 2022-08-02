@@ -19,3 +19,17 @@ SRV | _imap | _tcp | @ | mail.example.com | 0 | 1 | 143
 SRV | _imaps | _tcp | @ | mail.example.com | 0 | 1 | 993
 SRV | _pop3 | _tcp | @ | mail.example.com | 0 | 1 | 110
 SRV | _pop3s | _tcp | @ | mail.example.com | 0 | 1 | 995
+
+
+Open Ports
+| :---: |
+587
+110
+143
+80
+465
+25
+443
+4190
+993
+995
