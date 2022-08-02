@@ -21,15 +21,19 @@ SRV | _pop3 | _tcp | @ | mail.example.com | 0 | 1 | 110
 SRV | _pop3s | _tcp | @ | mail.example.com | 0 | 1 | 995
 
 
-Open Ports
-| :---: |
-587
-110
-143
-80
-465
-25
-443
-4190
-993
-995
+Service Open Ports
+---|---
+SMTP | 25
+SMTP SSL | 465
+SMTP TLS | 587
+POP3 | 110
+POP3 SSL | 995
+IMAP | 143
+IMAP SSL | 993
+Dashboard | 80
+Dashboard SSL | 443
+ManageSieve | 4190
+
+
+
+
