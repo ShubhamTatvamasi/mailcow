@@ -13,6 +13,7 @@ Type | Service | Protocol | Name | Value | Priority | Weight | Port
 ---|---|---|---|---|---|---|---
 SRV | _autodiscover | _tcp | @ | mail.example.com | 0 | 1 | 443
 SRV | _submission | _tcp | @ | mail.example.com | 0 | 1 | 587
+SRV | _smtps | _tcp | @ | mail.example.com | 0 | 1 | 465
 SRV | _imap | _tcp | @ | mail.example.com | 0 | 1 | 143
 SRV | _imaps | _tcp | @ | mail.example.com | 0 | 1 | 993
 SRV | _pop3 | _tcp | @ | mail.example.com | 0 | 1 | 110
