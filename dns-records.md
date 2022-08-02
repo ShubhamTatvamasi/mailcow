@@ -8,6 +8,7 @@ TXT | @ | v=spf1 ip4:127.0.0.1 -all
 TXT | dkim._domainkey | v=DKIM1;k=rsa;p=MIGfMA0
 TXT | _dmarc | v=DMARC1;p=quarantine
 
+> Generate DKIM key in your mail server with 2048 bit key
 
 Type | Service | Protocol | Name | Value | Priority | Weight | Port
 ---|---|---|---|---|---|---|---
