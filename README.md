@@ -25,3 +25,7 @@ Generate mail config:
 hostname: mail.shubhamtatvamasi.com
 ```
 
+Start mail server:
+```bash
+docker-compose up -d
+```
