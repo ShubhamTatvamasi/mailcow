@@ -21,7 +21,7 @@ SRV | _pop3 | _tcp | @ | mail.example.com | 0 | 1 | 110
 SRV | _pop3s | _tcp | @ | mail.example.com | 0 | 1 | 995
 
 
-Service Open Ports
+Service | Open Ports
 ---|---
 SMTP | 25
 SMTP SSL | 465
