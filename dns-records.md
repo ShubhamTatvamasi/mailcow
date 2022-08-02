@@ -5,7 +5,7 @@ Type | Name | Value | Priority
 A | mail | 127.0.0.1
 MX | @ | mail.example.com | 0
 TXT | @ | v=spf1 ip4:127.0.0.1 -all
-TXT | dkim._domainkey | v=DKIM1;k=rsa;p=MIGfMA0
+TXT | dkim._domainkey | v=DKIM1;k=rsa;p=XXXXXXXXX
 TXT | _dmarc | v=DMARC1;p=quarantine
 
 > Generate DKIM key in your mail server with 2048 bit key
