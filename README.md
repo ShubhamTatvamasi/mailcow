@@ -25,6 +25,14 @@ Generate mail config:
 hostname: mail.shubhamtatvamasi.com
 ```
 
+Skip IP check for SSL Certificate:
+```bash
+vim mailcow.conf
+```
+```
+SKIP_IP_CHECK=y
+```
+
 Start mail server:
 ```bash
 docker-compose up -d
