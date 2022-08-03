@@ -37,3 +37,6 @@ Start mail server:
 ```bash
 docker-compose up -d
 ```
+
+ID: `admin` \
+Pass: `moohoo`
