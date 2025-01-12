@@ -51,7 +51,6 @@ Pass: `moohoo`
 https://support.google.com/mail/answer/10336
 
 
-### Use K-9 Mail for mobile
+### Thunderbird Mobile
 
-https://k9mail.app/
-
+https://www.thunderbird.net/en-GB/mobile/
