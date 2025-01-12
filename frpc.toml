@@ -1,0 +1,62 @@
+serverAddr = "mail.example.com"
+serverPort = 7000
+
+[[proxies]]
+name = "smtp"
+type = "tcp"
+localPort = 25
+remotePort = 25
+
+[[proxies]]
+name = "smtp_ssl"
+type = "tcp"
+localPort = 465
+remotePort = 465
+
+[[proxies]]
+name = "smtp_tls"
+type = "tcp"
+localPort = 587
+remotePort = 587
+
+[[proxies]]
+name = "pop3"
+type = "tcp"
+localPort = 110
+remotePort = 110
+
+[[proxies]]
+name = "pop3_ssl"
+type = "tcp"
+localPort = 995
+remotePort = 995
+
+[[proxies]]
+name = "imap"
+type = "tcp"
+localPort = 143
+remotePort = 143
+
+[[proxies]]
+name = "imap_ssl"
+type = "tcp"
+localPort = 993
+remotePort = 993
+
+[[proxies]]
+name = "managesieve"
+type = "tcp"
+localPort = 4190
+remotePort = 4190
+
+[[proxies]]
+name = "mail_example_com_http"
+type = "http"
+localPort = 80
+customDomains = ["mail.example.com"]
+
+[[proxies]]
+name = "mail_example_com_https"
+type = "https"
+localPort = 443
+customDomains = ["mail.example.com"]
