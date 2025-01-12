@@ -32,7 +32,7 @@ vim mailcow.conf
 ```
 SKIP_IP_CHECK=y
 
-# Only if DNS is now working
+# Only if DNS is not working
 SKIP_UNBOUND_HEALTHCHECK=y
 ```
 
