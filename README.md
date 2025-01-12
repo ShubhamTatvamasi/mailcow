@@ -31,6 +31,8 @@ vim mailcow.conf
 ```
 ```
 SKIP_IP_CHECK=y
+
+# Only if DNS is now working
 SKIP_UNBOUND_HEALTHCHECK=y
 ```
 
@@ -47,3 +49,9 @@ Pass: `moohoo`
 #### The IP you're using to send email is not authorized...
 
 https://support.google.com/mail/answer/10336
+
+
+### Use K-9 Mail for mobile
+
+https://k9mail.app/
+
