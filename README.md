@@ -42,6 +42,8 @@ docker-compose up -d
 ID: `admin` \
 Pass: `moohoo`
 
+---
+
 #### The IP you're using to send email is not authorized...
 
 https://support.google.com/mail/answer/10336
