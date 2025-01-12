@@ -31,6 +31,7 @@ vim mailcow.conf
 ```
 ```
 SKIP_IP_CHECK=y
+SKIP_UNBOUND_HEALTHCHECK=y
 ```
 
 Start mail server:
