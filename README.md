@@ -46,6 +46,14 @@ Pass: `moohoo`
 
 ---
 
+Keep these two disabled or we stop receiving emails.
+
+- Relay this domain
+- Relay all recipients
+
+
+---
+
 #### The IP you're using to send email is not authorized...
 
 https://support.google.com/mail/answer/10336
