@@ -1,5 +1,7 @@
 # mailcow
 
+https://emkei.cz/
+
 Install docker:
 ```bash
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
